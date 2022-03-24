@@ -1,0 +1,23 @@
+合并字库文件教程 cmd指令，均需在文件夹内执行
+1.将需要合并的字库的.box .tif .tr文件复制到同一文件夹下(若有误则不复制.tr文件，复制完其余两个文件之后再生成tr：
+tesseract.exe num1.font.exp0.tif num1.font.exp0 nobatch box.train)
+2.从所有文件中提取字符（从.box文件中提取）
+unicharset_extractor num.font.exp0.box num1.font.exp0.box
+3.生成字体特征文件
+新建一个字体文件font_properties，将每个库内容中的不同字体放在一起(本项目字体全部相同，故直接复制任意字体库中的该文件即可）
+若要建立，参考csdn教程，字体内容例如 font 0 0 0 0 0  ，font为 num1.font.exp0.tif中的font
+然后执行(对.tr文件)
+mftraining -F font_properties -U unicharset num.unicharset num.font.exp0.tr num1.font.exp0.tr
+4.聚合所有的tr文件：
+cntraining num.font.exp0.tr num1.font.exp0.tr
+5.重命名文件(为需要的文件依次加上相同的前缀用于合并字库文件，该前缀就为字库的名称)
+依次执行以下命令：
+rename normproto num.normproto 
+rename inttemp num.inttemp 
+rename pffmtable num.pffmtable 
+rename shapetable num.shapetable
+rename unicharset num.unicharset
+6.合并所有文件，生成一个新的资库文件(以相同前缀名进行合并)
+combine_tessdata num.
+
+教程网页链接：https://www.cnblogs.com/c2soft/articles/10415236.html
