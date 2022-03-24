@@ -19,7 +19,7 @@ virtualenv venv
 官方训练数据下载(无手写数据)https://github.com/tesseract-ocr/tessdata
 本人自制简易手写数据见代码库num.traineddata，将其放入tesseract-ocr安装目录tessdata文件夹内即可
 方法二：自己进行机器学习，识别手写(需要大量机器训练，并进行人工标注才能提升正确率)
-1.下载安装Tesseract-OCR文件进行自己的训练数据创建。中文教程见：https://blog.csdn.net/qq_40147863/article/details/82290015
+1.下载安装jTessBoxEditorFX软件(该软件需要预先安装好java运行环境，若无法打开可自行google或百度安装方法)进行自己的训练数据创建。中文教程见：https://blog.csdn.net/qq_40147863/article/details/82290015
 ——————————————————————————————————————————————————
 Python代码部分 注意：
 需要预先安装两个库Pillow与pytesseract
