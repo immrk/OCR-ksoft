@@ -48,4 +48,6 @@ pip install pytesseract
 代码见demo.py与ocr.py(demo为本地测试文件，ocr为包括前端的代码）
 tesseract-ocr安装使用以及代码视频教程见：
 https://www.bilibili.com/video/BV1tK411V7Qu?spm_id_from=333.1007.top_right_bar_window_history.content.click
-注意：本项目代码部分基于该视频博主代码改造。此教程视频不包含手写识别教程，手写识别数据库为本人制造
+注意：本项目代码部分基于该视频博主代码改造。此视频教程不包含手写识别教程，手写识别数据库为本人训练制作
+###关于code中jpg图片的说明：
+该部分图片是本人进行机器学习过程中使用的图片，若各位想要进行自己的机器学习，图片格式需要先转码位tif/tiff格式才能在jTessBoxEditorFX中使用
