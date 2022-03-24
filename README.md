@@ -2,7 +2,7 @@
 # 说明——————关于python实现ocr文本以及简单手写识别的教程以及基础代码开源
 
 -------
-> 注意：以下教程与代码均使用开源ocr功能软件tesseract-ocr；以下代码与教程均要求电脑安装有python编译环境
+> 注意：以下教程与代码均使用开源ocr功能软件tesseract-ocr（tesseract-ocr安装使用以及代码视频教程见： https://www.bilibili.com/video/BV1tK411V7Qu?spm_id_from=333.1007.top_right_bar_window_history.content.click） 以下代码与教程均要求电脑安装有python编译环境
 
 ## 准备步骤：
 
