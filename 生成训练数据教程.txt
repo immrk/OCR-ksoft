@@ -1,0 +1,30 @@
+1.图片转为tif格式
+2.将所有图片合并成一个tif num.font.exp0.tif
+3.生成BOX文件 cmd指令：tesseract num.font.exp0.tif num.font.exp0 batch.nochop makebox
+4.定义字符配置文件 
+新建txt文件，重命名font_properties，删除后缀txt，内容为：font 0 0 0 0 0
+5.字符矫正
+ jTessBoxEditor>【BOX Editor】> 【Open】，打开num.font.exp0.tif；矫正【Char】上的字符
+6.执行批处理文件
+运行do.bat文件,本质是运行了以下cmd指令
+echo Run Tesseract for Training.. 
+tesseract.exe num.font.exp0.tif num.font.exp0 nobatch box.train 
+
+echo Compute the Character Set.. 
+unicharset_extractor.exe num.font.exp0.box 
+mftraining -F font_properties -U unicharset -O num.unicharset num.font.exp0.tr 
+
+
+echo Clustering.. 
+cntraining.exe num.font.exp0.tr 
+
+echo Rename Files.. 
+rename normproto num.normproto 
+rename inttemp num.inttemp 
+rename pffmtable num.pffmtable 
+rename shapetable num.shapetable  
+
+echo Create Tessdata.. 
+combine_tessdata.exe num. 
+
+echo. & pause
