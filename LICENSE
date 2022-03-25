@@ -1,0 +1,81 @@
+Copyright (c) 2022 keyajian
+ksoft许可证, 第1版
+
+
+   您对“软件”的商用、复制、使用、修改及分发受ksoft许可证, 第1版的如下条款的约束：
+    
+    特别强调：你享有该项目的大部分内容的商用、复制、使用、修改及分发权利，但不包括机器学习数据，机器学习数据"num.traineddata"仅可用于学习交流使用，不可用于商用，若需商用请联系keyajian@gmail.com
+
+   0. 定义
+
+      “软件”是指由“贡献”构成的许可在“本许可证”下的程序和相关文档的集合。
+
+      “贡献”是指由任一“贡献者”许可在“本许可证”下的受版权法保护的作品。
+
+      “贡献者”是指将受版权法保护的作品许可在“本许可证”下的自然人或“法人实体”。
+
+      “法人实体”是指提交贡献的机构及其“关联实体”。
+
+      “关联实体”是指，对“本许可证”下的行为方而言，控制、受控制或与其共同受控制的机构，此处的控制是指有受控方或共同受控方至少50%直接或间接的投票权、资金或其他有价证券。
+
+   1. 授予版权许可
+
+      每个“贡献者”根据“本许可证”授予您永久性的、全球性的、免费的、非独占的、不可撤销的版权许可，您可以复制、使用、修改、分发其“贡献”，不论修改与否。
+
+   2. 授予专利许可
+
+      每个“贡献者”根据“本许可证”授予您永久性的、全球性的、免费的、非独占的、不可撤销的（根据本条规定撤销除外）专利许可，供您制造、委托制造、使用、许诺销售、销售、进口其“贡献”或以其他方式转移其“贡献”。前述专利许可仅限于“贡献者”现在或将来拥有或控制的其“贡献”本身或其“贡献”与许可“贡献”时的“软件”结合而将必然会侵犯的专利权利要求，不包括对“贡献”的修改或包含“贡献”的其他结合。如果您或您的“关联实体”直接或间接地，就“软件”或其中的“贡献”对任何人发起专利侵权诉讼（包括反诉或交叉诉讼）或其他专利维权行动，指控其侵犯专利权，则“本许可证”授予您对“软件”的专利许可自您提起诉讼或发起维权行动之日终止。
+
+   3. 无商标许可
+
+      “本许可证”不提供对“贡献者”的商品名称、商标、服务标志或产品名称的商标许可，但您为满足第4条规定的声明义务而必须使用除外。
+
+   4. 分发限制
+
+      您可以在任何媒介中将“软件”以源程序形式或可执行形式重新分发，不论修改与否，但您必须向接收者提供“本许可证”的副本，并保留“软件”中的版权、商标、专利及免责声明。但机器学习数据num.traineddata仅可用于学习交流使用，不可用于商用，若需商用请联系keyajian@gmail.com
+
+   5. 免责声明与责任限制
+
+      “软件”及其中的“贡献”在提供时不带任何明示或默示的担保。在任何情况下，“贡献者”或版权所有者不对任何人因使用“软件”或其中的“贡献”而引发的任何直接或间接损失承担责任，不论因何种原因导致或者基于何种法律理论，即使其曾被建议有此种损失的可能性。 
+
+   6. 语言
+      “本许可证”以中英文双语表述，中英文版本具有同等法律效力。如果中英文版本存在任何冲突不一致，以中文版为准。
+
+   条款结束 
+
+   Copyright (c) 2022 keyajian
+   OCR-ksoft is licensed under ksoft PSL v1.
+ Ksoft License, version 1
+
+Your commercial use, copying, use, modification, and distribution of the Software is governed by the following terms of the Ksoft License, Version 1:
+
+Note: You have the right to commercial use, copy, use, modify and distribute most of the contents of the project, except for the machine learning data. The machine learning data" num. Traineddata "can only be used for learning and communication, not for commercial use. For commercial use, please contact keyajian@gmail.com
+
+Definition 0.
+"Software" means the collection of programs and associated documentation made up of contributions licensed under this License.
+
+"Contribution" means the copyright protected works licensed under this License by any Contributor.
+
+"Contributor" means a natural person or "legal entity" that licenses work protected by copyright law under this License.
+
+"Legal Entity" means the institution submitting the contribution and its "associated entity".
+
+"Related Entity" means an entity that is controlled, controlled, or jointly controlled by a party under this License, with the control of at least 50% of the voting rights, funds, or other securities of a party or party under this License, directly or indirectly.
+
+1. Grant of copyright license
+Each Contributor grants you a perpetual, worldwide, free, non-exclusive, irrevocable copyright license under this License to copy, use, modify, and distribute its contributions, whether modified or not.
+
+2. Grant patent license
+Each "contributor" according to "this license" grants you a permanent, global, free, non exclusive, irrevocable (except according to the provisions of this article to cancel) patent license, for you to manufacture, commissioning, use, promise to sales, sales, import the "contribution" or otherwise transfer its "contribution". The foregoing patent licenses are limited to patent claims that the Contributor now or hereafter owns or controls the Contribution itself or its contribution combined with the Software at the time of licensing the Contribution and do not include modifications to the Contribution or other combinations incorporating the Contribution. If you or your "real" associated directly or indirectly, the "software" or the "contribution" launched a patent infringement lawsuit against anyone (including counterclaim or cross action) or other patent activism, accusing it of patent infringement, the "this license" grants you the "software" of the patent license since you initiated a lawsuit or terminated on the date of activism.
+
+3. No trademark license
+This License does not provide a trademark license for contributor's trade name, trademark, service mark, or product name, except if you must use it to satisfy your declaratory obligations under Section 4.
+
+4. Distribution restrictions
+You may redistribute the Software in source or executable form in any medium, modified or not, provided that you provide recipient with a copy of this License and retain the Copyrights, trademarks, patents and disclaimers contained in the Software. However, num. Traineddata can only be used for learning and communication, not for commercial use. For commercial use, please contact keyajian@gmail.com
+5. Disclaimer and limitation of liability
+The Software and the contributions therein are provided without warranty of any kind, express or implied. In no event shall Contributor or Copyright Owner be liable to any person for any direct or indirect damages arising out of the use of the Software or the Contributions therein, for any reason whatsoever or on the basis of any legal theory, even if it has been suggested that such damages might be possible.
+6. Language
+This License is expressed in Both Chinese and English, and both Chinese and English versions have the same legal effect. In case of any conflict between the Chinese and English versions, the Chinese version shall prevail.
+
+The terms of the end
